@@ -30,9 +30,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/doublemo/nakama-common/api"
-	"github.com/doublemo/nakama-plus/v3/apigrpc"
-	"github.com/doublemo/nakama-plus/v3/social"
+	"github.com/whymidnight/nakama-common/api"
+	"github.com/whymidnight/nakama-plus/v3/apigrpc"
+	"github.com/whymidnight/nakama-plus/v3/social"
 	"github.com/gofrs/uuid/v5"
 	jwt "github.com/golang-jwt/jwt/v4"
 	"github.com/gorilla/handlers"

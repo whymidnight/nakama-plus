@@ -21,8 +21,8 @@ import (
 	"time"
 
 	"github.com/blugelabs/bluge"
-	"github.com/doublemo/nakama-common/rtapi"
-	"github.com/doublemo/nakama-common/runtime"
+	"github.com/whymidnight/nakama-common/rtapi"
+	"github.com/whymidnight/nakama-common/runtime"
 	"github.com/gofrs/uuid/v5"
 	jwt "github.com/golang-jwt/jwt/v4"
 	"go.uber.org/atomic"

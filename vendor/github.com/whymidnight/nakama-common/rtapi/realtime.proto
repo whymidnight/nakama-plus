@@ -23,11 +23,11 @@ import "google/protobuf/timestamp.proto";
 import "google/protobuf/wrappers.proto";
 import "api/api.proto";
 
-option go_package = "github.com/doublemo/nakama-common/rtapi";
+option go_package = "github.com/whymidnight/nakama-common/rtapi";
 
 option java_multiple_files = true;
 option java_outer_classname = "NakamaRealtime";
-option java_package = "com.doublemo.nakama.rtapi";
+option java_package = "com.whymidnight.nakama.rtapi";
 
 option csharp_namespace = "Nakama.Protobuf";
 

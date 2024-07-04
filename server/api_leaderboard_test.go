@@ -7,8 +7,8 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/doublemo/nakama-common/api"
-	"github.com/doublemo/nakama-plus/v3/apigrpc"
+	"github.com/whymidnight/nakama-common/api"
+	"github.com/whymidnight/nakama-plus/v3/apigrpc"
 	"github.com/gofrs/uuid/v5"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"

@@ -17,7 +17,7 @@ import (
   "context"
   "database/sql"
 
-  "github.com/doublemo/nakama-common/runtime"
+  "github.com/whymidnight/nakama-common/runtime"
 )
 
 func InitModule(ctx context.Context, logger runtime.Logger, db *sql.DB, nk runtime.NakamaModule, initializer runtime.Initializer) error {

@@ -23,8 +23,8 @@ import (
 	"time"
 
 	"github.com/dop251/goja"
-	"github.com/doublemo/nakama-common/rtapi"
-	"github.com/doublemo/nakama-plus/v3/social"
+	"github.com/whymidnight/nakama-common/rtapi"
+	"github.com/whymidnight/nakama-plus/v3/social"
 	"github.com/gofrs/uuid/v5"
 	"go.uber.org/atomic"
 	"go.uber.org/zap"

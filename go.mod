@@ -1,10 +1,10 @@
-module github.com/doublemo/nakama-plus/v3
+module github.com/whymidnight/nakama-plus/v3
 
-go 1.22.0
+go 1.22.4
 
 replace (
-	github.com/doublemo/nakama-common => ../nakama-common
-	github.com/doublemo/nakama-kit => ../nakama-kit
+	github.com/whymidnight/nakama-common => ../nakama-common
+	github.com/whymidnight/nakama-kit => ../nakama-kit
 )
 
 require (
@@ -12,8 +12,6 @@ require (
 	github.com/blugelabs/bluge_segment_api v0.2.0
 	github.com/blugelabs/query_string v0.3.0
 	github.com/dop251/goja v0.0.0-20240516125602-ccbae20bcec2
-	github.com/doublemo/nakama-common v0.0.0-00010101000000-000000000000
-	github.com/doublemo/nakama-kit v0.0.0-00010101000000-000000000000
 	github.com/gofrs/uuid/v5 v5.2.0
 	github.com/golang-jwt/jwt/v4 v4.5.0
 	github.com/gorilla/handlers v1.5.2
@@ -26,6 +24,8 @@ require (
 	github.com/jackc/pgx/v5 v5.6.0
 	github.com/stretchr/testify v1.8.4
 	github.com/uber-go/tally/v4 v4.1.16
+	github.com/whymidnight/nakama-common v0.0.0-00010101000000-000000000000
+	github.com/whymidnight/nakama-kit v0.0.0-00010101000000-000000000000
 	go.uber.org/atomic v1.11.0
 	go.uber.org/zap v1.27.0
 	golang.org/x/crypto v0.24.0

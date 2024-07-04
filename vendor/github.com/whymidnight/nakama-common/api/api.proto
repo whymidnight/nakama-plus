@@ -22,16 +22,16 @@ package nakama.api;
 import "google/protobuf/timestamp.proto";
 import "google/protobuf/wrappers.proto";
 
-option go_package = "github.com/doublemo/nakama-common/api";
+option go_package = "github.com/whymidnight/nakama-common/api";
 
 option java_multiple_files = true;
 option java_outer_classname = "NakamaApi";
-option java_package = "com.doublemo.nakama.api";
+option java_package = "com.whymidnight.nakama.api";
 
 option csharp_namespace = "Nakama.Protobuf";
 
 message Query {
-  repeated string value = 1; 
+  repeated string value = 1;
 }
 
 message Request {

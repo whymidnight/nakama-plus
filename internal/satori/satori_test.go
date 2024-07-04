@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/doublemo/nakama-common/runtime"
+	"github.com/whymidnight/nakama-common/runtime"
 	"github.com/gofrs/uuid/v5"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"

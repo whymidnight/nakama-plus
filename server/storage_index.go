@@ -25,7 +25,7 @@ import (
 	"github.com/blugelabs/bluge"
 	"github.com/blugelabs/bluge/index"
 	"github.com/blugelabs/bluge/search"
-	"github.com/doublemo/nakama-common/api"
+	"github.com/whymidnight/nakama-common/api"
 	"github.com/gofrs/uuid/v5"
 	"go.uber.org/zap"
 	"google.golang.org/protobuf/types/known/timestamppb"

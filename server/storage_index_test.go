@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/doublemo/nakama-common/api"
+	"github.com/whymidnight/nakama-common/api"
 	"github.com/gofrs/uuid/v5"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/protobuf/types/known/timestamppb"

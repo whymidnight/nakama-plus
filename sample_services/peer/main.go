@@ -7,7 +7,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/doublemo/nakama-plus/v3/server"
+	"github.com/whymidnight/nakama-plus/v3/server"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

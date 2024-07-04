@@ -11,8 +11,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/doublemo/nakama-kit/pb"
-	"github.com/doublemo/nakama-plus/v3/internal/skiplist"
+	"github.com/whymidnight/nakama-kit/pb"
+	"github.com/whymidnight/nakama-plus/v3/internal/skiplist"
 	"go.uber.org/atomic"
 	"go.uber.org/zap"
 )

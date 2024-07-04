@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/doublemo/nakama-common/api"
-	"github.com/doublemo/nakama-kit/pb"
+	"github.com/whymidnight/nakama-common/api"
+	"github.com/whymidnight/nakama-kit/pb"
 	"github.com/gofrs/uuid/v5"
 	"github.com/gorilla/mux"
 	grpcgw "github.com/grpc-ecosystem/grpc-gateway/v2/runtime"

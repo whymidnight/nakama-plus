@@ -8,7 +8,7 @@ package kit
 import (
 	"context"
 
-	"github.com/doublemo/nakama-kit/pb"
+	"github.com/whymidnight/nakama-kit/pb"
 )
 
 type ServerHandler interface {

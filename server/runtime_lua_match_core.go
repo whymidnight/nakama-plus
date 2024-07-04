@@ -24,9 +24,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/doublemo/nakama-common/rtapi"
-	lua "github.com/doublemo/nakama-plus/v3/internal/gopher-lua"
-	"github.com/doublemo/nakama-plus/v3/social"
+	"github.com/whymidnight/nakama-common/rtapi"
+	lua "github.com/whymidnight/nakama-plus/v3/internal/gopher-lua"
+	"github.com/whymidnight/nakama-plus/v3/social"
 	"github.com/gofrs/uuid/v5"
 	"go.uber.org/atomic"
 	"go.uber.org/zap"

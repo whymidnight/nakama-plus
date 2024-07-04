@@ -10,8 +10,8 @@ import (
 	"math"
 	"sync"
 
-	"github.com/doublemo/nakama-kit/kit/hashring"
-	"github.com/doublemo/nakama-kit/pb"
+	"github.com/whymidnight/nakama-kit/kit/hashring"
+	"github.com/whymidnight/nakama-kit/pb"
 	"go.uber.org/atomic"
 	"go.uber.org/zap"
 )

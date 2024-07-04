@@ -5,7 +5,7 @@
 
 package kit
 
-import "github.com/doublemo/nakama-kit/pb"
+import "github.com/whymidnight/nakama-kit/pb"
 
 type (
 	ConnectorWriteOption func(msg *pb.ResponseWriter)

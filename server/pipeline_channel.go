@@ -22,9 +22,9 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/doublemo/nakama-common/api"
-	"github.com/doublemo/nakama-common/rtapi"
-	"github.com/doublemo/nakama-common/runtime"
+	"github.com/whymidnight/nakama-common/api"
+	"github.com/whymidnight/nakama-common/rtapi"
+	"github.com/whymidnight/nakama-common/runtime"
 	"github.com/gofrs/uuid/v5"
 	"go.uber.org/zap"
 	"google.golang.org/protobuf/types/known/timestamppb"

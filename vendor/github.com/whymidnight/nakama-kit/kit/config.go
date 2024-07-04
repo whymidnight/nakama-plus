@@ -9,7 +9,7 @@ import (
 	"errors"
 	"time"
 
-	grpcpool "github.com/doublemo/nakama-kit/kit/grpc-pool"
+	grpcpool "github.com/whymidnight/nakama-kit/kit/grpc-pool"
 )
 
 type (

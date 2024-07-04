@@ -4,7 +4,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/doublemo/nakama-kit/kit"
+	"github.com/whymidnight/nakama-kit/kit"
 	"go.uber.org/zap"
 	"gopkg.in/yaml.v3"
 )

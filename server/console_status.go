@@ -18,7 +18,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/doublemo/nakama-plus/v3/console"
+	"github.com/whymidnight/nakama-plus/v3/console"
 	"go.uber.org/zap"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

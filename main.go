@@ -28,11 +28,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/doublemo/nakama-plus/v3/console"
-	"github.com/doublemo/nakama-plus/v3/ga"
-	"github.com/doublemo/nakama-plus/v3/migrate"
-	"github.com/doublemo/nakama-plus/v3/server"
-	"github.com/doublemo/nakama-plus/v3/social"
+	"github.com/whymidnight/nakama-plus/v3/console"
+	"github.com/whymidnight/nakama-plus/v3/ga"
+	"github.com/whymidnight/nakama-plus/v3/migrate"
+	"github.com/whymidnight/nakama-plus/v3/server"
+	"github.com/whymidnight/nakama-plus/v3/social"
 	"github.com/gofrs/uuid/v5"
 	"github.com/jackc/pgx/v5/stdlib"
 	_ "github.com/jackc/pgx/v5/stdlib" // Blank import to register SQL driver

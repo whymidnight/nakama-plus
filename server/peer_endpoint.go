@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/doublemo/nakama-kit/kit"
-	"github.com/doublemo/nakama-kit/pb"
+	"github.com/whymidnight/nakama-kit/kit"
+	"github.com/whymidnight/nakama-kit/pb"
 	"github.com/hashicorp/memberlist"
 	"go.uber.org/atomic"
 	"google.golang.org/protobuf/encoding/protojson"

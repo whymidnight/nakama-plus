@@ -25,8 +25,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/doublemo/nakama-common/api"
-	"github.com/doublemo/nakama-plus/v3/internal/cronexpr"
+	"github.com/whymidnight/nakama-common/api"
+	"github.com/whymidnight/nakama-plus/v3/internal/cronexpr"
 	"github.com/gofrs/uuid/v5"
 
 	"github.com/jackc/pgx/v5/pgconn"

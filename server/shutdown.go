@@ -19,7 +19,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/doublemo/nakama-common/runtime"
+	"github.com/whymidnight/nakama-common/runtime"
 	"go.uber.org/zap"
 )
 

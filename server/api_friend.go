@@ -18,8 +18,8 @@ import (
 	"context"
 	"strconv"
 
-	"github.com/doublemo/nakama-common/api"
-	"github.com/doublemo/nakama-common/runtime"
+	"github.com/whymidnight/nakama-common/api"
+	"github.com/whymidnight/nakama-common/runtime"
 	"github.com/gofrs/uuid/v5"
 	"go.uber.org/zap"
 	"google.golang.org/grpc/codes"

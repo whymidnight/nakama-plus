@@ -25,8 +25,8 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/doublemo/nakama-common/api"
-	"github.com/doublemo/nakama-plus/v3/console"
+	"github.com/whymidnight/nakama-common/api"
+	"github.com/whymidnight/nakama-plus/v3/console"
 	"github.com/gofrs/uuid/v5"
 	"github.com/jackc/pgx/v5/pgtype"
 	"go.uber.org/zap"

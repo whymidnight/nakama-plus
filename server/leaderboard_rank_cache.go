@@ -25,8 +25,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/doublemo/nakama-common/api"
-	"github.com/doublemo/nakama-plus/v3/internal/skiplist"
+	"github.com/whymidnight/nakama-common/api"
+	"github.com/whymidnight/nakama-plus/v3/internal/skiplist"
 	"github.com/gofrs/uuid/v5"
 	"go.uber.org/zap"
 )

@@ -24,7 +24,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/doublemo/nakama-plus/v3/flags"
+	"github.com/whymidnight/nakama-plus/v3/flags"
 	"go.uber.org/zap"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"

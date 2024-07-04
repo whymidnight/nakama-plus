@@ -2,7 +2,7 @@
 package parse
 
 import (
-  "github.com/doublemo/nakama-plus/v3/internal/gopher-lua/ast"
+  "github.com/whymidnight/nakama-plus/v3/internal/gopher-lua/ast"
 )
 %}
 %type<stmts> chunk

@@ -15,8 +15,8 @@
 package server
 
 import (
-	"github.com/doublemo/nakama-common/rtapi"
-	"github.com/doublemo/nakama-kit/pb"
+	"github.com/whymidnight/nakama-common/rtapi"
+	"github.com/whymidnight/nakama-kit/pb"
 	"go.uber.org/zap"
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/proto"

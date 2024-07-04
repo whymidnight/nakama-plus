@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/doublemo/nakama-common/rtapi"
+	"github.com/whymidnight/nakama-common/rtapi"
 	"github.com/gofrs/uuid/v5"
 	"go.uber.org/zap"
 )

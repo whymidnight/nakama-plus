@@ -17,8 +17,8 @@ package server
 import (
 	"strings"
 
-	"github.com/doublemo/nakama-common/api"
-	"github.com/doublemo/nakama-common/rtapi"
+	"github.com/whymidnight/nakama-common/api"
+	"github.com/whymidnight/nakama-common/rtapi"
 	"go.uber.org/zap"
 )
 

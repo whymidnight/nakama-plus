@@ -24,11 +24,11 @@
  import "api/api.proto";
  import "rtapi/realtime.proto";
  
- option go_package = "github.com/doublemo/nakama-kit/pb";
+ option go_package = "github.com/whymidnight/nakama-kit/pb";
  
  option java_multiple_files = true;
  option java_outer_classname = "NakamaPeer";
- option java_package = "com.doublemo.nakama.pb";
+ option java_package = "com.whymidnight.nakama.pb";
  
  option csharp_namespace = "Nakama.Protobuf";
 

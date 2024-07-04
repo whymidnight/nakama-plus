@@ -9,7 +9,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/doublemo/nakama-kit/pb"
+	"github.com/whymidnight/nakama-kit/pb"
 	"go.uber.org/zap"
 )
 

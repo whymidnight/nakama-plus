@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/doublemo/nakama-plus/v3/internal/worker"
+	"github.com/whymidnight/nakama-plus/v3/internal/worker"
 )
 
 func TestPacedWorkers(t *testing.T) {

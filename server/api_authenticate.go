@@ -22,7 +22,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/doublemo/nakama-common/api"
+	"github.com/whymidnight/nakama-common/api"
 	"github.com/gofrs/uuid/v5"
 	jwt "github.com/golang-jwt/jwt/v4"
 	"go.uber.org/zap"

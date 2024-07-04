@@ -21,8 +21,8 @@ import (
 	"runtime"
 	"strconv"
 
-	"github.com/doublemo/nakama-kit/kit"
-	"github.com/doublemo/nakama-plus/v3/console"
+	"github.com/whymidnight/nakama-kit/kit"
+	"github.com/whymidnight/nakama-plus/v3/console"
 	"go.uber.org/zap"
 )
 

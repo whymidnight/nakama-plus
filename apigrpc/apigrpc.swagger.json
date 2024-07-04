@@ -1345,11 +1345,17 @@
             "type": "string"
           },
           {
-            "name": "bytes",
+            "name": "bytesValue",
             "in": "query",
             "required": false,
             "type": "string",
             "format": "byte"
+          },
+          {
+            "name": "stringValue",
+            "in": "query",
+            "required": false,
+            "type": "string"
           }
         ],
         "tags": [
@@ -1397,28 +1403,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "type": "object",
-              "properties": {
-                "header": {
-                  "type": "object",
-                  "additionalProperties": {
-                    "type": "string"
-                  }
-                },
-                "query": {
-                  "type": "object",
-                  "additionalProperties": {
-                    "$ref": "#/definitions/apiQuery"
-                  }
-                },
-                "httpKey": {
-                  "type": "string"
-                },
-                "bytes": {
-                  "type": "string",
-                  "format": "byte"
-                }
-              }
+              "$ref": "#/definitions/apiNakamaAnyBody"
             }
           }
         ],
@@ -1513,7 +1498,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/apiEvent"
+              "$ref": "#/definitions/nakamaapiEvent"
             }
           }
         ],
@@ -1998,30 +1983,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "type": "object",
-              "properties": {
-                "name": {
-                  "type": "string",
-                  "description": "Name."
-                },
-                "description": {
-                  "type": "string",
-                  "description": "Description string."
-                },
-                "langTag": {
-                  "type": "string",
-                  "description": "Lang tag."
-                },
-                "avatarUrl": {
-                  "type": "string",
-                  "description": "Avatar URL."
-                },
-                "open": {
-                  "type": "boolean",
-                  "description": "Open is true if anyone should be allowed to join, or false if joins must be approved by a group admin."
-                }
-              },
-              "description": "Update fields in a given group."
+              "$ref": "#/definitions/NakamaUpdateGroupBody"
             }
           }
         ],
@@ -3812,6 +3774,32 @@
       },
       "description": "A single user-role pair."
     },
+    "NakamaUpdateGroupBody": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Name."
+        },
+        "description": {
+          "type": "string",
+          "description": "Description string."
+        },
+        "langTag": {
+          "type": "string",
+          "description": "Lang tag."
+        },
+        "avatarUrl": {
+          "type": "string",
+          "description": "Avatar URL."
+        },
+        "open": {
+          "type": "boolean",
+          "description": "Open is true if anyone should be allowed to join, or false if joins must be approved by a group admin."
+        }
+      },
+      "description": "Update fields in a given group."
+    },
     "UserGroupListUserGroup": {
       "type": "object",
       "properties": {
@@ -4243,32 +4231,6 @@
       },
       "description": "Batch delete storage objects."
     },
-    "apiEvent": {
-      "type": "object",
-      "properties": {
-        "name": {
-          "type": "string",
-          "description": "An event name, type, category, or identifier."
-        },
-        "properties": {
-          "type": "object",
-          "additionalProperties": {
-            "type": "string"
-          },
-          "description": "Arbitrary event property values."
-        },
-        "timestamp": {
-          "type": "string",
-          "format": "date-time",
-          "description": "The time when the event was triggered."
-        },
-        "external": {
-          "type": "boolean",
-          "description": "True if the event came directly from a client call, false otherwise."
-        }
-      },
-      "description": "Represents an event to be passed through the server to registered event handlers."
-    },
     "apiFriend": {
       "type": "object",
       "properties": {
@@ -4591,6 +4553,33 @@
       },
       "description": "A list of realtime matches."
     },
+    "apiNakamaAnyBody": {
+      "type": "object",
+      "properties": {
+        "header": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "query": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/definitions/apiQuery"
+          }
+        },
+        "httpKey": {
+          "type": "string"
+        },
+        "bytesValue": {
+          "type": "string",
+          "format": "byte"
+        },
+        "stringValue": {
+          "type": "string"
+        }
+      }
+    },
     "apiNotification": {
       "type": "object",
       "properties": {
@@ -4712,9 +4701,12 @@
             "type": "string"
           }
         },
-        "bytes": {
+        "bytesValue": {
           "type": "string",
           "format": "byte"
+        },
+        "stringValue": {
+          "type": "string"
         }
       }
     },
@@ -5522,7 +5514,7 @@
       },
       "description": "Write objects to the storage engine."
     },
-    "protobufAny": {
+    "googleprotobufAny": {
       "type": "object",
       "properties": {
         "@type": {
@@ -5530,6 +5522,32 @@
         }
       },
       "additionalProperties": {}
+    },
+    "nakamaapiEvent": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "An event name, type, category, or identifier."
+        },
+        "properties": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          },
+          "description": "Arbitrary event property values."
+        },
+        "timestamp": {
+          "type": "string",
+          "format": "date-time",
+          "description": "The time when the event was triggered."
+        },
+        "external": {
+          "type": "boolean",
+          "description": "True if the event came directly from a client call, false otherwise."
+        }
+      },
+      "description": "Represents an event to be passed through the server to registered event handlers."
     },
     "rpcStatus": {
       "type": "object",
@@ -5545,7 +5563,7 @@
           "type": "array",
           "items": {
             "type": "object",
-            "$ref": "#/definitions/protobufAny"
+            "$ref": "#/definitions/googleprotobufAny"
           }
         }
       }

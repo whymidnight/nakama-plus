@@ -8,7 +8,7 @@ package server
 import (
 	"sync"
 
-	"github.com/doublemo/nakama-kit/pb"
+	"github.com/whymidnight/nakama-kit/pb"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

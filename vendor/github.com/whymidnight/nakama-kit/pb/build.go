@@ -15,8 +15,8 @@
 package pb
 
 import (
-	_ "github.com/doublemo/nakama-common/api"
-	_ "github.com/doublemo/nakama-common/rtapi"
+	_ "github.com/whymidnight/nakama-common/api"
+	_ "github.com/whymidnight/nakama-common/rtapi"
 )
 
-//go:generate protoc -I.. -I. -I../vendor -I../vendor/github.com/doublemo/nakama-common --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt=paths=source_relative peer.proto
+//go:generate protoc -I.. -I. -I../vendor -I../vendor/github.com/whymidnight/nakama-common --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt=paths=source_relative peer.proto

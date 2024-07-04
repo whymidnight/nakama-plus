@@ -20,7 +20,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/doublemo/nakama-plus/v3/social"
+	"github.com/whymidnight/nakama-plus/v3/social"
 	"github.com/gofrs/uuid/v5"
 	"go.uber.org/zap"
 	"google.golang.org/grpc/codes"

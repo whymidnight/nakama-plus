@@ -11,7 +11,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/doublemo/nakama-plus/v3/internal/worker/deque"
+	"github.com/whymidnight/nakama-plus/v3/internal/worker/deque"
 )
 
 const (

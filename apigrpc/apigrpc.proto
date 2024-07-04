@@ -22,9 +22,9 @@ package nakama.api;
 import "google/api/annotations.proto";
 import "google/protobuf/empty.proto";
 import "protoc-gen-openapiv2/options/annotations.proto";
-import "github.com/doublemo/nakama-common/api/api.proto";
+import "github.com/whymidnight/nakama-common/api/api.proto";
 
-option go_package = "github.com/doublemo/nakama-plus/v3/apigrpc";
+option go_package = "github.com/whymidnight/nakama-plus/v3/apigrpc";
 
 option java_multiple_files = true;
 option java_outer_classname = "NakamaApiGrpc";

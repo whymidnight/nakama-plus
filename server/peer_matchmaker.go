@@ -5,7 +5,7 @@
 
 package server
 
-import "github.com/doublemo/nakama-kit/pb"
+import "github.com/whymidnight/nakama-kit/pb"
 
 func (s *LocalPeer) MatchmakerAdd(extract *pb.MatchmakerExtract) {
 	s.BroadcastBinaryLog(&pb.BinaryLog{

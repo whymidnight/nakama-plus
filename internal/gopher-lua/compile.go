@@ -5,7 +5,7 @@ import (
 	"math"
 	"reflect"
 
-	"github.com/doublemo/nakama-plus/v3/internal/gopher-lua/ast"
+	"github.com/whymidnight/nakama-plus/v3/internal/gopher-lua/ast"
 )
 
 /* internal constants & structs  {{{ */

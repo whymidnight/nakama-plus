@@ -18,8 +18,8 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/doublemo/nakama-common/api"
-	"github.com/doublemo/nakama-common/runtime"
+	"github.com/whymidnight/nakama-common/api"
+	"github.com/whymidnight/nakama-common/runtime"
 	"github.com/jackc/pgx/v5"
 	"go.uber.org/zap"
 )

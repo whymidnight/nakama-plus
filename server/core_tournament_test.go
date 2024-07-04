@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/doublemo/nakama-plus/v3/internal/cronexpr"
+	"github.com/whymidnight/nakama-plus/v3/internal/cronexpr"
 	"github.com/stretchr/testify/require"
 )
 

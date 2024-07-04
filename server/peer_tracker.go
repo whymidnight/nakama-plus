@@ -17,8 +17,8 @@ package server
 import (
 	syncAtomic "sync/atomic"
 
-	"github.com/doublemo/nakama-common/runtime"
-	"github.com/doublemo/nakama-kit/pb"
+	"github.com/whymidnight/nakama-common/runtime"
+	"github.com/whymidnight/nakama-kit/pb"
 	"github.com/gofrs/uuid/v5"
 )
 

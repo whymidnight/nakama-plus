@@ -17,7 +17,7 @@ package server
 import (
 	"sync"
 
-	"github.com/doublemo/nakama-common/runtime"
+	"github.com/whymidnight/nakama-common/runtime"
 	"github.com/gofrs/uuid/v5"
 	"go.uber.org/atomic"
 )

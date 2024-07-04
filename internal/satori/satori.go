@@ -27,7 +27,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/doublemo/nakama-common/runtime"
+	"github.com/whymidnight/nakama-common/runtime"
 	"github.com/golang-jwt/jwt/v4"
 	"go.uber.org/zap"
 )

@@ -17,7 +17,7 @@ package server
 import (
 	"context"
 
-	"github.com/doublemo/nakama-common/api"
+	"github.com/whymidnight/nakama-common/api"
 	"github.com/gofrs/uuid/v5"
 	"go.uber.org/zap"
 	"google.golang.org/grpc/codes"

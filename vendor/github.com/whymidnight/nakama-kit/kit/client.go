@@ -14,8 +14,8 @@ import (
 	"sync"
 	"time"
 
-	grpcpool "github.com/doublemo/nakama-kit/kit/grpc-pool"
-	"github.com/doublemo/nakama-kit/pb"
+	grpcpool "github.com/whymidnight/nakama-kit/kit/grpc-pool"
+	"github.com/whymidnight/nakama-kit/pb"
 	"go.uber.org/atomic"
 	"go.uber.org/zap"
 	"golang.org/x/oauth2"

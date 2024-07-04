@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/doublemo/nakama-common/rtapi"
+	"github.com/whymidnight/nakama-common/rtapi"
 	"go.uber.org/zap"
 	"google.golang.org/protobuf/encoding/protojson"
 )

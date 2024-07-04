@@ -18,8 +18,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/doublemo/nakama-common/rtapi"
-	"github.com/doublemo/nakama-kit/pb"
+	"github.com/whymidnight/nakama-common/rtapi"
+	"github.com/whymidnight/nakama-kit/pb"
 	"github.com/gofrs/uuid/v5"
 	"go.uber.org/atomic"
 	"go.uber.org/zap"

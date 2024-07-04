@@ -10,7 +10,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/doublemo/nakama-kit/kit"
+	"github.com/whymidnight/nakama-kit/kit"
 	"github.com/hashicorp/memberlist"
 	"go.uber.org/zap"
 )

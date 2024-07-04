@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/doublemo/nakama-kit/pb"
+	"github.com/whymidnight/nakama-kit/pb"
 	"go.uber.org/atomic"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"

@@ -25,7 +25,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/doublemo/nakama-plus/v3/console"
+	"github.com/whymidnight/nakama-plus/v3/console"
 	"github.com/gofrs/uuid/v5"
 
 	"github.com/jackc/pgx/v5/pgconn"

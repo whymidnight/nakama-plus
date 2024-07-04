@@ -18,7 +18,7 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/doublemo/nakama-plus/v3/console"
+	"github.com/whymidnight/nakama-plus/v3/console"
 	"github.com/gofrs/uuid/v5"
 	"go.uber.org/zap"
 	"google.golang.org/grpc/codes"

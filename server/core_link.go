@@ -21,7 +21,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/doublemo/nakama-plus/v3/social"
+	"github.com/whymidnight/nakama-plus/v3/social"
 	"github.com/gofrs/uuid/v5"
 
 	"github.com/jackc/pgx/v5/pgconn"
